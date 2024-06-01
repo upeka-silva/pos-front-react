@@ -9,7 +9,7 @@ function Customer(){
                 <div className="row">
                     <div className="col-12 col-sm-6 col-md-4">
                         <div className="form-group">
-                            <label htmlFor=""></label>
+                            <label htmlFor="">Customer</label>
                             <input type="text" className="form-control" id="customerName"/>
                         </div>
 
@@ -17,14 +17,14 @@ function Customer(){
                     <div className="col-12 col-sm-6 col-md-4">
 
                         <div className="form-group">
-                            <label htmlFor=""></label>
+                            <label htmlFor="">Address</label>
                             <input type="text" className="form-control" id="customerAddress"/>
                         </div>
 
                     </div>
                     <div className="col-12 col-sm-6 col-md-4">
                         <div className="form-group">
-                            <label htmlFor=""></label>
+                            <label htmlFor="">Salary</label>
                             <input type="number" className="form-control" id="customerSalary"/>
                         </div>
                     </div>
