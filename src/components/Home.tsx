@@ -1,17 +1,10 @@
 import DefaultCard from "./cards/DefaultCard.tsx";
 
 
-
-
 function Home(){
 
-
-
-
-
     return (
-
-
+        
           <>
               <br/>
 
