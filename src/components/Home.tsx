@@ -1,16 +1,24 @@
 function Home(){
 
+    const maxWidthStyle:React.CSSProperties={
+
+        maxWidth:'540px'
+
+
+    }
+
 
     return (
 
 
           <>
+              <br/>
 
              <div className='container'>
                  <div className='row'>
 
-                     <div className='col-12 col-sm-6 col-md-3 col-lg-3'>
-                         <div className="card mb-3" style="max-width: 540px;">
+                     <div className='col-12 col-sm-6 col-md-4 col-lg-3'>
+                         <div className="card mb-3" style={maxWidthStyle}>
                              <div className="row g-0">
                                  <div className="col-md-4">
                                      <img src="..." className="img-fluid rounded-start" alt="..."/>
@@ -30,8 +38,8 @@ function Home(){
 
 
                      </div>
-                     <div className='col-12 col-sm-6 col-md-3 col-lg-3'>
-                         <div className="card mb-3" style="max-width: 540px;">
+                     <div className='col-12 col-sm-6 col-md-4 col-lg-3'>
+                         <div className="card mb-3" style={maxWidthStyle}>
                              <div className="row g-0">
                                  <div className="col-md-4">
                                      <img src="..." className="img-fluid rounded-start" alt="..."/>
@@ -51,8 +59,8 @@ function Home(){
 
 
                      </div>
-                     <div className='col-12 col-sm-6 col-md-3 col-lg-3'>
-                         <div className="card mb-3" style="max-width: 540px;">
+                     <div className='col-12 col-sm-6 col-md-4 col-lg-3'>
+                         <div className="card mb-3" style={maxWidthStyle}>
                              <div className="row g-0">
                                  <div className="col-md-4">
                                      <img src="..." className="img-fluid rounded-start" alt="..."/>
@@ -72,8 +80,8 @@ function Home(){
 
 
                      </div>
-                     <div className='col-12 col-sm-6 col-md-3 col-lg-3'>
-                         <div className="card mb-3" style="max-width: 540px;">
+                     <div className='col-12 col-sm-6 col-md-4 col-lg-3'>
+                         <div className="card mb-3" style={maxWidthStyle}>
                              <div className="row g-0">
                                  <div className="col-md-4">
                                      <img src="..." className="img-fluid rounded-start" alt="..."/>
@@ -93,6 +101,7 @@ function Home(){
 
 
                      </div>
+
 
 
                  </div>
