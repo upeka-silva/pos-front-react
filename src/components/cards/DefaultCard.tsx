@@ -1,4 +1,5 @@
 import DefaultChart from "./DefaultChart.tsx";
+import MinQtyCard from "./minQtyCard.tsx";
 
 interface DefaultCardData{
 
@@ -8,8 +9,6 @@ interface DefaultCardData{
     value:number
 
 }
-
-
 
 function DefaultCard(props:DefaultCardData){
 
@@ -24,7 +23,9 @@ function DefaultCard(props:DefaultCardData){
 
 
     return (
+
         <>
+
             <div className="card mb-3" style={maxWidthStyle}>
                 <div className="row g-0">
                     <div className="col-md-4">
@@ -39,18 +40,7 @@ function DefaultCard(props:DefaultCardData){
                     </div>
                 </div>
                 <br/>
-                <div className='row'>
-                    <div className='col-12 col-md-6'>
-                        <div className="context" >
-                            <DefaultChart/>
-                        </div>
 
-
-                       <div className="col-12 col-md-6" >
-
-                       </div>
-                    </div>
-                </div>
             </div>
 
         </>

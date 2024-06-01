@@ -3,6 +3,7 @@ import './App.css'
 import Home from "./components/Home.tsx";
 import Customer from "./components/Customer.tsx";
 import Products from "./components/Products.tsx";
+import Order from "./components/Orders.tsx";
 function App() {
 
 
@@ -26,27 +27,16 @@ function App() {
               <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                   <li className="nav-item">
-                    <a className="nav-link active" aria-current="page" href="#">Home</a>
+                    <Link className="nav-link active" aria-current='page' to={'/'}>Home</Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#">Link</a>
-                  </li>
-                  <li className="nav-item dropdown">
-                    <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                       aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <ul className="dropdown-menu">
-                      <li><a className="dropdown-item" href="#">Action</a></li>
-                      <li><a className="dropdown-item" href="#">Another action</a></li>
-                      <li>
-                        <hr className="dropdown-divider"/>
-                      </li>
-                      <li><a className="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
+                    <Link className="nav-link active"  to={'/customer'}>Customer</Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link disabled" aria-disabled="true">Disabled</a>
+                    <Link className="nav-link active" to={'/orders'}>Order Management</Link>
+                  </li>
+                  <li className="nav-item">
+                    <Link className="nav-link active" to={'/products'}>Products</Link>
                   </li>
                 </ul>
                 <form className="d-flex" role="search">
@@ -64,6 +54,7 @@ function App() {
           <Route path={'/'} element={<Home/>}/>
           <Route path={'/customer'} element={<Customer/>}/>
           <Route path={'/products'} element={<Products/>}/>
+          <Route path={'/orders'} element={<Order/>}/>
 
         </Routes>
 
