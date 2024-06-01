@@ -1,3 +1,5 @@
+import DefaultChart from "./DefaultChart.tsx";
+
 interface DefaultCardData{
 
     thumbnail:string,
@@ -34,6 +36,19 @@ function DefaultCard(props:DefaultCardData){
                             <p className="card-text">{props.description}</p>
                             <p className="card-text"><small className="text-body-secondary">{props.value}</small></p>
                         </div>
+                    </div>
+                </div>
+                <br/>
+                <div className='row'>
+                    <div className='col-12 col-md-6'>
+                        <div className="context" >
+                            <DefaultChart/>
+                        </div>
+
+
+                       <div className="col-12 col-md-6" >
+
+                       </div>
                     </div>
                 </div>
             </div>
