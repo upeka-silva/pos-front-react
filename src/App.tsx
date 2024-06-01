@@ -3,7 +3,7 @@ import './App.css'
 import Home from "./components/Home.tsx";
 import Customer from "./components/Customer.tsx";
 import Products from "./components/Products.tsx";
-import Order from "./components/Orders.tsx";
+import Order from "./components/Order.tsx";
 function App() {
 
 
